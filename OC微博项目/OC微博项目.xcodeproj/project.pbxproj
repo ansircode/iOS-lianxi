@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFCD3AE1C842EE600999ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3AD1C842EE600999ECD /* main.m */; };
+		1BFCD3B11C842EE600999ECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3B01C842EE600999ECD /* AppDelegate.m */; };
+		1BFCD3B41C842EE600999ECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3B31C842EE600999ECD /* ViewController.m */; };
+		1BFCD3B91C842EE600999ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFCD3B81C842EE600999ECD /* Assets.xcassets */; };
+		1BFCD3BC1C842EE600999ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFCD3BA1C842EE600999ECD /* LaunchScreen.storyboard */; };
+		1BFCD3D71C84825E00999ECD /* XJComposeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3D61C84825E00999ECD /* XJComposeButton.m */; };
+		1BFCD3DA1C8488B500999ECD /* XJHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3D91C8488B500999ECD /* XJHomeTableViewController.m */; };
+		1BFCD3DD1C8488D800999ECD /* XJMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3DC1C8488D800999ECD /* XJMessageTableViewController.m */; };
+		1BFCD3E01C84894F00999ECD /* XJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3DF1C84894F00999ECD /* XJBaseTableViewController.m */; };
+		1BFCD3E31C8489A800999ECD /* XJDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3E21C8489A800999ECD /* XJDiscoverTableViewController.m */; };
+		1BFCD3E61C848A0800999ECD /* XJProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3E51C848A0800999ECD /* XJProfileTableViewController.m */; };
+		1BFCD3E91C848C3300999ECD /* XJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3E81C848C3300999ECD /* XJBaseViewController.m */; };
+		1BFCD3EC1C848F8100999ECD /* XJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3EB1C848F8100999ECD /* XJHomeViewController.m */; };
+		1BFCD3EF1C848FA000999ECD /* XJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3EE1C848FA000999ECD /* XJMessageViewController.m */; };
+		1BFCD3F21C848FBA00999ECD /* XJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3F11C848FBA00999ECD /* XJDiscoverViewController.m */; };
+		1BFCD3F51C84903A00999ECD /* XJProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3F41C84903A00999ECD /* XJProfileViewController.m */; };
+		1BFCD3FA1C849A6A00999ECD /* XJVistorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3F91C849A6A00999ECD /* XJVistorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BFCD3A91C842EE600999ECD /* OC微博项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC微博项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFCD3AD1C842EE600999ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BFCD3AF1C842EE600999ECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BFCD3B01C842EE600999ECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BFCD3B21C842EE600999ECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BFCD3B31C842EE600999ECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BFCD3B81C842EE600999ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BFCD3BB1C842EE600999ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BFCD3BD1C842EE600999ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BFCD3D51C84825E00999ECD /* XJComposeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJComposeButton.h; sourceTree = "<group>"; };
+		1BFCD3D61C84825E00999ECD /* XJComposeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJComposeButton.m; sourceTree = "<group>"; };
+		1BFCD3D81C8488B500999ECD /* XJHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJHomeTableViewController.h; sourceTree = "<group>"; };
+		1BFCD3D91C8488B500999ECD /* XJHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJHomeTableViewController.m; sourceTree = "<group>"; };
+		1BFCD3DB1C8488D800999ECD /* XJMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJMessageTableViewController.h; sourceTree = "<group>"; };
+		1BFCD3DC1C8488D800999ECD /* XJMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJMessageTableViewController.m; sourceTree = "<group>"; };
+		1BFCD3DE1C84894F00999ECD /* XJBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJBaseTableViewController.h; sourceTree = "<group>"; };
+		1BFCD3DF1C84894F00999ECD /* XJBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJBaseTableViewController.m; sourceTree = "<group>"; };
+		1BFCD3E11C8489A800999ECD /* XJDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDiscoverTableViewController.h; sourceTree = "<group>"; };
+		1BFCD3E21C8489A800999ECD /* XJDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJDiscoverTableViewController.m; sourceTree = "<group>"; };
+		1BFCD3E41C848A0800999ECD /* XJProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJProfileTableViewController.h; sourceTree = "<group>"; };
+		1BFCD3E51C848A0800999ECD /* XJProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJProfileTableViewController.m; sourceTree = "<group>"; };
+		1BFCD3E71C848C3300999ECD /* XJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJBaseViewController.h; sourceTree = "<group>"; };
+		1BFCD3E81C848C3300999ECD /* XJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJBaseViewController.m; sourceTree = "<group>"; };
+		1BFCD3EA1C848F8100999ECD /* XJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XJHomeViewController.h; path = ../XJHomeViewController.h; sourceTree = "<group>"; };
+		1BFCD3EB1C848F8100999ECD /* XJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XJHomeViewController.m; path = ../XJHomeViewController.m; sourceTree = "<group>"; };
+		1BFCD3ED1C848FA000999ECD /* XJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJMessageViewController.h; sourceTree = "<group>"; };
+		1BFCD3EE1C848FA000999ECD /* XJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJMessageViewController.m; sourceTree = "<group>"; };
+		1BFCD3F01C848FBA00999ECD /* XJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDiscoverViewController.h; sourceTree = "<group>"; };
+		1BFCD3F11C848FBA00999ECD /* XJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJDiscoverViewController.m; sourceTree = "<group>"; };
+		1BFCD3F31C84903A00999ECD /* XJProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJProfileViewController.h; sourceTree = "<group>"; };
+		1BFCD3F41C84903A00999ECD /* XJProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJProfileViewController.m; sourceTree = "<group>"; };
+		1BFCD3F81C849A6A00999ECD /* XJVistorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJVistorView.h; sourceTree = "<group>"; };
+		1BFCD3F91C849A6A00999ECD /* XJVistorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJVistorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BFCD3A61C842EE600999ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BFCD3A01C842EE600999ECD = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3C31C844A3400999ECD /* Classes */,
+				1BFCD3AB1C842EE600999ECD /* OC微博项目 */,
+				1BFCD3AA1C842EE600999ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BFCD3AA1C842EE600999ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3A91C842EE600999ECD /* OC微博项目.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BFCD3AB1C842EE600999ECD /* OC微博项目 */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3AF1C842EE600999ECD /* AppDelegate.h */,
+				1BFCD3B01C842EE600999ECD /* AppDelegate.m */,
+				1BFCD3B21C842EE600999ECD /* ViewController.h */,
+				1BFCD3B31C842EE600999ECD /* ViewController.m */,
+				1BFCD3B81C842EE600999ECD /* Assets.xcassets */,
+				1BFCD3BA1C842EE600999ECD /* LaunchScreen.storyboard */,
+				1BFCD3BD1C842EE600999ECD /* Info.plist */,
+				1BFCD3AC1C842EE600999ECD /* Supporting Files */,
+			);
+			path = "OC微博项目";
+			sourceTree = "<group>";
+		};
+		1BFCD3AC1C842EE600999ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3AD1C842EE600999ECD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BFCD3C31C844A3400999ECD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3C41C844A3400999ECD /* Extension(扩展) */,
+				1BFCD3C51C844A3400999ECD /* Library(第三方库) */,
+				1BFCD3C61C844A3400999ECD /* Model(全局业务模型) */,
+				1BFCD3C71C844A3400999ECD /* Module(业务模块) */,
+				1BFCD3CD1C844A3400999ECD /* Tool(工具类) */,
+			);
+			name = Classes;
+			path = "OC微博项目/Classes";
+			sourceTree = "<group>";
+		};
+		1BFCD3C41C844A3400999ECD /* Extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extension(扩展)";
+			sourceTree = "<group>";
+		};
+		1BFCD3C51C844A3400999ECD /* Library(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Library(第三方库)";
+			sourceTree = "<group>";
+		};
+		1BFCD3C61C844A3400999ECD /* Model(全局业务模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(全局业务模型)";
+			sourceTree = "<group>";
+		};
+		1BFCD3C71C844A3400999ECD /* Module(业务模块) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3D41C8480F900999ECD /* Compose(发微博) */,
+				1BFCD3C91C844A3400999ECD /* Home(首页) */,
+				1BFCD3CB1C844A3400999ECD /* Message(消息) */,
+				1BFCD3C81C844A3400999ECD /* Discover(发现) */,
+				1BFCD3CC1C844A3400999ECD /* Profile(我) */,
+				1BFCD3CA1C844A3400999ECD /* Main(主要的) */,
+			);
+			path = "Module(业务模块)";
+			sourceTree = "<group>";
+		};
+		1BFCD3C81C844A3400999ECD /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3E11C8489A800999ECD /* XJDiscoverTableViewController.h */,
+				1BFCD3E21C8489A800999ECD /* XJDiscoverTableViewController.m */,
+				1BFCD3F01C848FBA00999ECD /* XJDiscoverViewController.h */,
+				1BFCD3F11C848FBA00999ECD /* XJDiscoverViewController.m */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		1BFCD3C91C844A3400999ECD /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3D81C8488B500999ECD /* XJHomeTableViewController.h */,
+				1BFCD3D91C8488B500999ECD /* XJHomeTableViewController.m */,
+				1BFCD3EA1C848F8100999ECD /* XJHomeViewController.h */,
+				1BFCD3EB1C848F8100999ECD /* XJHomeViewController.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		1BFCD3CA1C844A3400999ECD /* Main(主要的) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3FB1C849D1B00999ECD /* Model */,
+				1BFCD3F61C8499BB00999ECD /* Controller */,
+				1BFCD3F71C8499CD00999ECD /* View */,
+			);
+			path = "Main(主要的)";
+			sourceTree = "<group>";
+		};
+		1BFCD3CB1C844A3400999ECD /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3DB1C8488D800999ECD /* XJMessageTableViewController.h */,
+				1BFCD3DC1C8488D800999ECD /* XJMessageTableViewController.m */,
+				1BFCD3ED1C848FA000999ECD /* XJMessageViewController.h */,
+				1BFCD3EE1C848FA000999ECD /* XJMessageViewController.m */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		1BFCD3CC1C844A3400999ECD /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3E41C848A0800999ECD /* XJProfileTableViewController.h */,
+				1BFCD3E51C848A0800999ECD /* XJProfileTableViewController.m */,
+				1BFCD3F31C84903A00999ECD /* XJProfileViewController.h */,
+				1BFCD3F41C84903A00999ECD /* XJProfileViewController.m */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		1BFCD3CD1C844A3400999ECD /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		1BFCD3D41C8480F900999ECD /* Compose(发微博) */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3D51C84825E00999ECD /* XJComposeButton.h */,
+				1BFCD3D61C84825E00999ECD /* XJComposeButton.m */,
+			);
+			name = "Compose(发微博)";
+			sourceTree = "<group>";
+		};
+		1BFCD3F61C8499BB00999ECD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3DE1C84894F00999ECD /* XJBaseTableViewController.h */,
+				1BFCD3DF1C84894F00999ECD /* XJBaseTableViewController.m */,
+				1BFCD3E71C848C3300999ECD /* XJBaseViewController.h */,
+				1BFCD3E81C848C3300999ECD /* XJBaseViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1BFCD3F71C8499CD00999ECD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCD3F81C849A6A00999ECD /* XJVistorView.h */,
+				1BFCD3F91C849A6A00999ECD /* XJVistorView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1BFCD3FB1C849D1B00999ECD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BFCD3A81C842EE600999ECD /* OC微博项目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BFCD3C01C842EE600999ECD /* Build configuration list for PBXNativeTarget "OC微博项目" */;
+			buildPhases = (
+				1BFCD3A51C842EE600999ECD /* Sources */,
+				1BFCD3A61C842EE600999ECD /* Frameworks */,
+				1BFCD3A71C842EE600999ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC微博项目";
+			productName = "OC微博项目";
+			productReference = 1BFCD3A91C842EE600999ECD /* OC微博项目.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BFCD3A11C842EE600999ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					1BFCD3A81C842EE600999ECD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 237DZ5QD49;
+					};
+				};
+			};
+			buildConfigurationList = 1BFCD3A41C842EE600999ECD /* Build configuration list for PBXProject "OC微博项目" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BFCD3A01C842EE600999ECD;
+			productRefGroup = 1BFCD3AA1C842EE600999ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BFCD3A81C842EE600999ECD /* OC微博项目 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BFCD3A71C842EE600999ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFCD3BC1C842EE600999ECD /* LaunchScreen.storyboard in Resources */,
+				1BFCD3B91C842EE600999ECD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BFCD3A51C842EE600999ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFCD3E31C8489A800999ECD /* XJDiscoverTableViewController.m in Sources */,
+				1BFCD3E01C84894F00999ECD /* XJBaseTableViewController.m in Sources */,
+				1BFCD3EC1C848F8100999ECD /* XJHomeViewController.m in Sources */,
+				1BFCD3D71C84825E00999ECD /* XJComposeButton.m in Sources */,
+				1BFCD3F51C84903A00999ECD /* XJProfileViewController.m in Sources */,
+				1BFCD3B41C842EE600999ECD /* ViewController.m in Sources */,
+				1BFCD3B11C842EE600999ECD /* AppDelegate.m in Sources */,
+				1BFCD3F21C848FBA00999ECD /* XJDiscoverViewController.m in Sources */,
+				1BFCD3E61C848A0800999ECD /* XJProfileTableViewController.m in Sources */,
+				1BFCD3AE1C842EE600999ECD /* main.m in Sources */,
+				1BFCD3DA1C8488B500999ECD /* XJHomeTableViewController.m in Sources */,
+				1BFCD3DD1C8488D800999ECD /* XJMessageTableViewController.m in Sources */,
+				1BFCD3EF1C848FA000999ECD /* XJMessageViewController.m in Sources */,
+				1BFCD3E91C848C3300999ECD /* XJBaseViewController.m in Sources */,
+				1BFCD3FA1C849A6A00999ECD /* XJVistorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BFCD3BA1C842EE600999ECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BFCD3BB1C842EE600999ECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BFCD3BE1C842EE600999ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BFCD3BF1C842EE600999ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BFCD3C11C842EE600999ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC微博项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itcast.OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BFCD3C21C842EE600999ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC微博项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itcast.OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BFCD3A41C842EE600999ECD /* Build configuration list for PBXProject "OC微博项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFCD3BE1C842EE600999ECD /* Debug */,
+				1BFCD3BF1C842EE600999ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BFCD3C01C842EE600999ECD /* Build configuration list for PBXNativeTarget "OC微博项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFCD3C11C842EE600999ECD /* Debug */,
+				1BFCD3C21C842EE600999ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BFCD3A11C842EE600999ECD /* Project object */;
+}
