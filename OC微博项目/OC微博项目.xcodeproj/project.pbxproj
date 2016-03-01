@@ -480,6 +480,7 @@
 				1BFCD3C21C842EE600999ECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,34 +9,38 @@
 #import "XJBaseViewController.h"
 #import "XJVistorView.h"
 
-@interface XJBaseViewController ()
+@interface XJBaseViewController () <XJVistorViewDelegate>
+
+@property (nonatomic, strong) XJVistorView *vistorView;
 
 @end
 
 @implementation XJBaseViewController
 
+- (XJVistorView *)vistorView {
+    if (_vistorView == nil) {
+        _vistorView = [[XJVistorView alloc] init];
+    }
+    return _vistorView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    XJVistorView *view = [[XJVistorView alloc] init];
     
-//    view.backgroundColor = [UIColor orangeColor];
     
-    self.view = view;
+    
+    self.view = self.vistorView;
+    
+    self.vistorView.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//实现XJVistorViewDelegate代理
+- (void)registerButtonDelegate {
+    NSLog(@"点击了注册按钮");
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)loginButtonDelegate {
+    NSLog(@"点击了登录按钮");
 }
-*/
 
 @end

@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+//定义点击协议
+@protocol XJVistorViewDelegate <NSObject>
+
+- (void)registerButtonDelegate;
+
+- (void)loginButtonDelegate;
+
+@end
+
+
 @interface XJVistorView : UIView
 
-
+@property (nonatomic, weak) id<XJVistorViewDelegate> delegate;
 
 @end
