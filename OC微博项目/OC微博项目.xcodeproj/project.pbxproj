@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD8B97D1C85E8F100486FA6 /* UIBarButtonItem+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD8B97C1C85E8F100486FA6 /* UIBarButtonItem+extension.m */; };
 		1BFCD3AE1C842EE600999ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3AD1C842EE600999ECD /* main.m */; };
 		1BFCD3B11C842EE600999ECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3B01C842EE600999ECD /* AppDelegate.m */; };
 		1BFCD3B41C842EE600999ECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCD3B31C842EE600999ECD /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BD8B97B1C85E8F100486FA6 /* UIBarButtonItem+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+extension.h"; sourceTree = "<group>"; };
+		1BD8B97C1C85E8F100486FA6 /* UIBarButtonItem+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+extension.m"; sourceTree = "<group>"; };
 		1BFCD3A91C842EE600999ECD /* OC微博项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC微博项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFCD3AD1C842EE600999ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BFCD3AF1C842EE600999ECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 		1BFCD3C41C844A3400999ECD /* Extension(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				1BD8B97B1C85E8F100486FA6 /* UIBarButtonItem+extension.h */,
+				1BD8B97C1C85E8F100486FA6 /* UIBarButtonItem+extension.m */,
 			);
 			path = "Extension(扩展)";
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 				1BFCD3AE1C842EE600999ECD /* main.m in Sources */,
 				1BFCD3DA1C8488B500999ECD /* XJHomeTableViewController.m in Sources */,
 				1BFCD3DD1C8488D800999ECD /* XJMessageTableViewController.m in Sources */,
+				1BD8B97D1C85E8F100486FA6 /* UIBarButtonItem+extension.m in Sources */,
 				1BFCD3EF1C848FA000999ECD /* XJMessageViewController.m in Sources */,
 				1BFCD3E91C848C3300999ECD /* XJBaseViewController.m in Sources */,
 				1BFCD3FA1C849A6A00999ECD /* XJVistorView.m in Sources */,

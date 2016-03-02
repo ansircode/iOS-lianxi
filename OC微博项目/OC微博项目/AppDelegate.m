@@ -19,6 +19,7 @@
 #import "XJMessageViewController.h"
 #import "XJDiscoverViewController.h"
 #import "XJProfileViewController.h"
+#import "UIBarButtonItem+extension.h"
 
 
 @interface AppDelegate ()
@@ -59,6 +60,9 @@
     [self setMainWithTab:tab];
     [self setMainWithTab1:tab1];
     
+    //添加导航栏按钮
+    
+    
     //让window作为主窗口并且显示
     [self.window makeKeyAndVisible];
     
@@ -68,10 +72,14 @@
 
 //设置tab
 - (void)setMainWithTab:(UITabBarController *)tab {
+    
     XJHomeTableViewController *homeVC = [[XJBaseTableViewController alloc] init];
     homeVC.title = @"首页";
     homeVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
-    [tab addChildViewController:[[UINavigationController alloc] initWithRootViewController:homeVC]];
+    UINavigationController *navHome = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    
+    [tab addChildViewController:navHome];
+    
     
     //消息
     XJMessageTableViewController *messageVC = [[XJBaseTableViewController alloc] init];
@@ -113,12 +121,17 @@
     XJHomeViewController *homeVC = [[XJBaseViewController alloc] init];
     homeVC.title = @"首页";
     homeVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
+    homeVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:nil action:nil];
+    homeVC.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:nil action:nil];
     [tab1 addChildViewController:[[UINavigationController alloc] initWithRootViewController:homeVC]];
     
     //消息
     XJMessageViewController *messageVC = [[XJBaseViewController alloc] init];
     messageVC.title = @"消息";
     messageVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_message_center"];
+    
+    messageVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:nil action:nil];
+    messageVC.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:nil action:nil];
     [tab1 addChildViewController:[[UINavigationController alloc] initWithRootViewController:messageVC]];
     
     //占位tabBar
@@ -128,12 +141,17 @@
     XJDiscoverViewController *discoverVC = [[XJBaseViewController alloc] init];
     discoverVC.title = @"发现";
     discoverVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_discover"];
+    //设置左右导航栏按钮
+    discoverVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:nil action:nil];
+    discoverVC.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:nil action:nil];
     [tab1 addChildViewController:[[UINavigationController alloc] initWithRootViewController:discoverVC]];
     
     //我
     XJProfileViewController *profileVC = [[XJBaseViewController alloc] init];
     profileVC.title = @"我";
     profileVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+    profileVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:nil action:nil];
+    profileVC.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:nil action:nil];
     [tab1 addChildViewController:[[UINavigationController alloc] initWithRootViewController:profileVC]];
     
     UIButton *composeButton = [[XJComposeButton alloc] init];
