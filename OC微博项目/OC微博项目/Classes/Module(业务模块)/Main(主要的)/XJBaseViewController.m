@@ -41,6 +41,9 @@
 }
 - (void)loginButtonDelegate {
     NSLog(@"点击了登录按钮");
+    //跳转到登录页面
+    
+    
 }
 
 @end
