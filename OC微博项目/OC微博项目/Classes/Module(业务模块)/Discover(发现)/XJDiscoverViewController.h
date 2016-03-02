@@ -10,4 +10,6 @@
 
 @interface XJDiscoverViewController : XJBaseViewController
 
+
+
 @end
